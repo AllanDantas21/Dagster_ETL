@@ -1,5 +1,6 @@
 dagster
 dagster-cloud
+polars>=1.22.0
 
 [dev]
 dagster-webserver

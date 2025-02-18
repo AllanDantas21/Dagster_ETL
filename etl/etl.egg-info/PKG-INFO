@@ -6,6 +6,7 @@ Requires-Python: <3.13,>=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: dagster
 Requires-Dist: dagster-cloud
+Requires-Dist: polars>=1.22.0
 Provides-Extra: dev
 Requires-Dist: dagster-webserver; extra == "dev"
 Requires-Dist: pytest; extra == "dev"

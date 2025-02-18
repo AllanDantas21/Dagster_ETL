@@ -7,6 +7,7 @@ requires-python = ">=3.9,<3.13"
 dependencies = [
     "dagster",
     "dagster-cloud",
+    "polars>=1.22.0",
 ]
 
 [project.optional-dependencies]
